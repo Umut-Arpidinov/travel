@@ -51,7 +51,7 @@ urlpatterns = [
 
     path('admin/', admin.site.urls),
     path('api/v1/', include('account.urls')),
-    path('api/v1/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/v1/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/v1/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api-token-auth/', views.obtain_auth_token),
     path('api/v1/', include('hotel.urls')),

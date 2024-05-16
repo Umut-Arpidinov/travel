@@ -177,3 +177,4 @@ SIMPLE_JWT = {
     # Optionally, you can adjust other JWT settings here as needed
 }
 
+AUTH_USER_MODEL = 'account.User'

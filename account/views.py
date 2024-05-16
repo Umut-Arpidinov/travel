@@ -35,6 +35,8 @@ class UserViewSet(viewsets.ModelViewSet):
         serializer.is_valid(raise_exception=True)
         self.perform_create(serializer)
         user = serializer.instance
+        user.set_password(user.password)
+        user.save()
         refresh = RefreshToken.for_user(user)
 
         return Response({

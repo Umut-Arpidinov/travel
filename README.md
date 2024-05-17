@@ -48,5 +48,6 @@ For any queries or further information, please don't hesitate to contact us:
 
 - **Email:** [Umut Arpidinov](mailto:ymytbek0314@gmail.com)
 - **Email:** [Nureles Almazbekov](mailto:nureles.almazbekuulu@alatoo.edu.kg)
+- **Email:** [Nursultan Sagynbaev](mailto:nursultan.sagynbaev@alatoo.edu.kg)
 
 We look forward to hearing from you!
